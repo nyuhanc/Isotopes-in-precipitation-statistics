@@ -30,7 +30,7 @@ Start the program:
 - open the terminal at the location of README.txt and type in:
     $   python ISO.py     (to start the program)
     - after executing the program the command prompt will ask you to:
-        - specify the name of the excel file 
+        - specify the name of the excel file, located in folder 'data' (e.g. Ljubljana16-18)
         - specify if precipitation amount data exists for all months ( * )
         - specify which types of statistics you want to calculate
 
