@@ -2,7 +2,7 @@
 
 
 INPUT
-Excel files containing data on isotope composition of precipitation (default file in map 'data')
+- Excel files containing data on isotope composition of precipitation (default file in map 'data')
 
 WHAT IS CALCULATED
 - means (annual, mothly and seasonal)
