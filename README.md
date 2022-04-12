@@ -45,11 +45,11 @@ Filters:
 
 Rounding:
 - by default the results are rounded on:
-    2 decimals (delta^18 O)
-    1 decimal (delta^2 H)
-    1 decimal (deuterium)
-    1 decimal (delta^3 H)
-    2 decimals (regression coeffs.)
+    - 2 decimals (delta^18 O)
+    - 1 decimal (delta^2 H)
+    - 1 decimal (deuterium)
+    - 1 decimal (delta^3 H)
+    - 2 decimals (regression coeffs.)
 - note: rounding is done with python's function round, which rounds *.**n5 down to *.**n  (and not to *.**(n+1)* e.g. 2.675 is rounded to 2.67 and not to 2.68)   
 
 
@@ -58,4 +58,3 @@ Rounding:
 
 
 Prepared by Aljaž Pavšek, IJS, 2022
-# Isotopes-in-precipitation-statistics
