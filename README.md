@@ -5,8 +5,10 @@ INPUT
 - Excel files containing data on isotope composition of precipitation (default file in map 'data')
 
 WHAT IS CALCULATED
-- means (annual, mothly and seasonal)
-- regression coefficients describing local meteoric water line (total and annual)
+- means: annual, mothly and seasonal (precipitation weighted and unweighted)
+- regression coefficients describing local meteoric water line (precipitation weighted and unweighted):
+    - MA (Major axis regression)
+    - RMA (Reduced major axis regression)
 
 
 INSTRUCTIONS
