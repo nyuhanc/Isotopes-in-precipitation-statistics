@@ -21,7 +21,6 @@ Excel files:
 - the names of excel files must be without dots (e.g. St. Petersburg -> St Petersburg)
 - in excel file there should be dots (not commas) used for writing decimal numbers
 - if no errors, the results will be saved in /results/<name_of_input_excel_file>
--
 
 Start the program:
 - make sure you have installed python3 on your computer, with the following libraries:
