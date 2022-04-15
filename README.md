@@ -32,7 +32,7 @@ Start the program:
 - open the terminal at the location of README.txt and type in:
     $   python ISO.py     (to start the program)
     - after executing the program the command prompt will ask you to:
-        - specify the name of the station (excel file), located in folder 'data/' (e.g. data/Ljubljana16-18)
+        - specify the name of the station (excel file), located in folder 'data/' (e.g. data/Murska_Sobota_16-18)
         - specify if precipitation amount data exists for all months ( * )
         - specify which types of statistics you want to calculate
         - results will be saved under 'results/Ljubljana16-18/'
