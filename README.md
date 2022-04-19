@@ -1,5 +1,5 @@
 # ISOTOPES IN PRECIPITATION - STATISTICS
-The python script (ISO.py) contained in this repository is a program that can be used for calculating basic statistical properties of (monthly collected) isotopic composition (_δ_<sup>2</sup>H, _δ_<sup>18</sup>O, _δ_<sup>3</sup>H) of precipitation. This script was created as a subproduct when initiating a dynamical website called SLONIP (SLOvenian Network of Isotopes in Precipitation) - https://slonip.ijs.si/. Major part of the code presented here (ISO.py) was firstly implemented in the backend of the mentioned website, and is here reused for the purpose of creating a program that can be run on any machine locally.
+The python script (ISO.py) contained in this repository is a program that can be used for calculating basic statistical properties of (monthly collected) isotopic composition (_δ_<sup>2</sup>H‰, _δ_<sup>18</sup>O‰, _δ_<sup>3</sup>H‰) of precipitation. This script was created as a subproduct when initiating a dynamical website called SLONIP (SLOvenian Network of Isotopes in Precipitation) - https://slonip.ijs.si/. Major part of the code presented here (ISO.py) was firstly implemented in the backend of the mentioned website, and is here reused for the purpose of creating a program that can be run on any machine locally.
 
 
 INPUT
@@ -41,18 +41,18 @@ Start the program:
 
 
 Filters:
-- if, for a given year, there is less than 8 (out of 12) existing values for some type of data, the annual statistics won't be calculated for this type of data (e.g. <sup>superscript</sup>delta^18 O has missing data in year 2020 for months Jan-May -> only 7/12 values for the year 2020 -> the annual (2020) delta^18 O statistics won't be calculated)
-- if, for a given year, the existing data (some type of data) represent less than 70% of total annual precipitation, the annual statistics won't be made for this type of data (e.g. only 10/12 data for delta^18 O are available for the year 2020, but this represents less than 70% of all precipitation collected that year -> the annual (2020) delta^18 O statistics won't be calculated)
-- when calculating regression coefficients if one of the pair (delta^18 O, delta^2 H) is missing, then this pair of values won't be taken into account when calculating regression coefficients
-- for given data (delta^18 O, delta^2 H), at least two years must be valid according to the above stated filters, for annual regression calculation to be executed
+- if, for a given year, there is less than 8 (out of 12) existing values for some type of data, the annual statistics won't be calculated for this type of data (e.g. _δ_<sup>18</sup>O‰ has missing data in year 2020 for months Jan-May -> only 7/12 values for the year 2020 -> the annual (2020) _δ_<sup>18</sup>O‰ statistics won't be calculated)
+- if, for a given year, the existing data (some type of data) represent less than 70% of total annual precipitation, the annual statistics won't be made for this type of data (e.g. only 10/12 data for _δ_<sup>18</sup>O‰ are available for the year 2020, but this represents less than 70% of all precipitation collected that year -> the annual (2020) _δ_<sup>18</sup>O‰ statistics won't be calculated)
+- when calculating regression coefficients if one of the pair (_δ_<sup>18</sup>O‰, _δ_<sup>2</sup>H‰) is missing, then this pair of values won't be taken into account when calculating regression coefficients
+- for given data (_δ_<sup>18</sup>O‰, _δ_<sup>2</sup>H‰), at least two years must be valid according to the above stated filters, for annual regression calculation to be executed
 - in the case when all precipitation data is not available ( * ), the '70% filter' will not be taken into account and the weighted statistics will not be calculated
 
 Rounding:
 - by default the results are rounded on:
-    - 2 decimals (delta^18 O)
-    - 1 decimal (delta^2 H)
+    - 2 decimals (_δ_<sup>18</sup>O)
+    - 1 decimal (_δ_<sup>2</sup>H)
     - 1 decimal (deuterium)
-    - 1 decimal (delta^3 H)
+    - 1 decimal (_δ_<sup>3</sup>H)
     - 2 decimals (regression coeffs.)
 - note: rounding is done with python's function round, which rounds *.**n5 down to *.**n  (and not to *.**(n+1)* e.g. 2.675 is rounded to 2.67 and not to 2.68)   
 
