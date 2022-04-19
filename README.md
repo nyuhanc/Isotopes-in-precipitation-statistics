@@ -1,5 +1,5 @@
 # ISOTOPES IN PRECIPITATION - STATISTICS
-The python script (ISO.py) contained in this repository is a program that can be used for calculating basic statistical properties of (monthly collected) isotopic composition (δ<sup>2</sup>H) of precipitation. This script was created as a subproduct when initiating a dynamical website called SLONIP (SLOvenian Network of Isotopes in Precipitation) - https://slonip.ijs.si/. Major part of the code presented here (ISO.py) was firstly implemented in the backend of the mentioned website, and is here reused for the purpose of creating a program that can be run on any machine locally.
+The python script (ISO.py) contained in this repository is a program that can be used for calculating basic statistical properties of (monthly collected) isotopic composition (_δ_<sup>2</sup>H, _δ_<sup>18</sup>O, _δ_<sup>3</sup>H) of precipitation. This script was created as a subproduct when initiating a dynamical website called SLONIP (SLOvenian Network of Isotopes in Precipitation) - https://slonip.ijs.si/. Major part of the code presented here (ISO.py) was firstly implemented in the backend of the mentioned website, and is here reused for the purpose of creating a program that can be run on any machine locally.
 
 
 INPUT
