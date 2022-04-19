@@ -9,8 +9,7 @@ WHAT IS CALCULATED
 - means: annual, mothly and seasonal (precipitation weighted and unweighted)
 - regression coefficients describing local meteoric water line (precipitation weighted and unweighted):
     - MA (Major axis regression)
-    - RMA (Reduced major axis regression)  
-
+    - RMA (Reduced major axis regression)<br>
 The complete description of used methods can be found on https://slonip.ijs.si/data/ under the segment 'Evaluation of data'.
 
 
