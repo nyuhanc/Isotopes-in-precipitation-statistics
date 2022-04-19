@@ -54,7 +54,7 @@ Rounding:
     - 1 decimal (deuterium)
     - 1 decimal (_δ_<sup>3</sup>H)
     - 2 decimals (regression coefficients)
-- note: rounding is done with python's function round, which rounds *.**n5 down to *.**n  (and not to *.**(n+1)* e.g. 2.675 is rounded to 2.67 and not to 2.68)   
+- note: rounding is done with python's function round, which rounds *.\**n5 down to *.\**n  (and not to *.\**(n+1)* e.g. 2.675 is rounded to 2.67 and not to 2.68)   
 
 
 
