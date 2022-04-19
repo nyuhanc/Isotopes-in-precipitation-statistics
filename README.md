@@ -11,7 +11,7 @@ WHAT IS CALCULATED
     - MA (Major axis regression)
     - RMA (Reduced major axis regression)  
 
-The complete description of used methods can be found on https://slonip.ijs.si/data/ under the segment 'EVALUATION OF DATA'
+The complete description of used methods can be found on https://slonip.ijs.si/data/ under the segment 'Evaluation of data'.
 
 
 INSTRUCTIONS
@@ -21,8 +21,8 @@ Excel files:
 - excel files must be constructed in a specific manner in order for program to work - an example data sheet can be found in the 'data' folder. 
 - there should be only one 'sheet' in excel file
 - the program supports the following type of excel files: xls 
-- the names of excel files must be without dots (e.g. St. Petersburg -> St Petersburg)
-- in excel file there should be dots (not commas) used for writing decimal numbers
+- the names of excel files must be without dots (e.g. Zg. Radovna -> Zg Radovna). Spaces are allowed.
+- in excel file there should be dots (not commas) used for decimal numbers
 - if no errors, the results will be saved in /results/<name_of_input_excel_file>
 
 Start the program:
@@ -36,12 +36,12 @@ Start the program:
     - after executing the program the command prompt will ask you to:
         - specify the name of the station (excel file), located in folder 'data/' (e.g. data/Murska_Sobota_16-18)
         - specify if precipitation amount data exists for all months ( * )
-        - specify which types of statistics you want to calculate
+        - specify which types of statistics you want to calculate (e.g. annual means, weighted monthly means,...)
         - results will be saved under 'results/Ljubljana16-18/'
 
 
 Filters:
-- if, for a given year, there is less than 8 (out of 12) existing values for some type of data, the annual statistics won't be made for this type of data (e.g. delta^18 O has missing data in year 2020 for months Jan-May -> only 7/12 values for the year 2020 -> the annual (2020) delta^18 O statistics won't be calculated)
+- if, for a given year, there is less than 8 (out of 12) existing values for some type of data, the annual statistics won't be calculated for this type of data (e.g. <sup>superscript</sup>delta^18 O has missing data in year 2020 for months Jan-May -> only 7/12 values for the year 2020 -> the annual (2020) delta^18 O statistics won't be calculated)
 - if, for a given year, the existing data (some type of data) represent less than 70% of total annual precipitation, the annual statistics won't be made for this type of data (e.g. only 10/12 data for delta^18 O are available for the year 2020, but this represents less than 70% of all precipitation collected that year -> the annual (2020) delta^18 O statistics won't be calculated)
 - when calculating regression coefficients if one of the pair (delta^18 O, delta^2 H) is missing, then this pair of values won't be taken into account when calculating regression coefficients
 - for given data (delta^18 O, delta^2 H), at least two years must be valid according to the above stated filters, for annual regression calculation to be executed
