@@ -10,6 +10,7 @@ WHAT IS CALCULATED
 - regression coefficients describing local meteoric water line (precipitation weighted and unweighted):
     - MA (Major axis regression)
     - RMA (Reduced major axis regression)  
+
 The complete description of used methods can be found on https://slonip.ijs.si/data/ under the segment 'EVALUATION OF DATA'
 
 
