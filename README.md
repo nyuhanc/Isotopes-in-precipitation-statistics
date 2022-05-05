@@ -39,7 +39,7 @@ Start the program:
         - specify if precipitation amount data exists for all months ( * )
         - specify which types of statistics you want to calculate (e.g. annual means, weighted monthly means,...)
         - results will be saved under 'results/Ljubljana16-18/'
-        - note: if presented data describes only one year, then the calculation 'Regression by years' will throw an error (at minimum two years are required to compute this type of regression
+        - note: if presented data describes only one year, then the calculation 'Regression by years' will throw an error (at minimum two years are required to compute this type of regression)
 
 
 Filters:
