@@ -33,13 +33,13 @@ Start the program:
     - numpy
     - matplotlib.pyplot
 
-- open the terminal at the location of README.txt and type in:
-    $   python ISO.py     (to start the program)
+- open the terminal at the location of README.txt and type in: python ISO.py (to start the program)
     - after executing the program the command prompt will ask you to:
         - specify the name of the station (excel file), located in folder 'data/' (e.g. data/Murska_Sobota_16-18)
         - specify if precipitation amount data exists for all months ( * )
         - specify which types of statistics you want to calculate (e.g. annual means, weighted monthly means,...)
         - results will be saved under 'results/Ljubljana16-18/'
+        - note: if presented data describes only one year, then the calculation 'Regression by years' will throw an error (at minimum two years are required to compute this type of regression
 
 
 Filters:
