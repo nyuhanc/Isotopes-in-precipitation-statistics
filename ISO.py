@@ -1510,5 +1510,7 @@ if input('Precipitation weighted annual means? (y/n) ') == 'y':
 if input('Regression? (y/n) ') == 'y':
     print('...calculating...')
     regression()
+if input('Regression by years? (y/n) ') == 'y':
+    print('...calculating...')
     RegByYears()
     RegByYears_diff()
